@@ -1,0 +1,48 @@
+body {
+    background-color: #5CA1D7;
+    color: white;
+}
+
+.top {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.top:hover {
+    color:black;
+}
+
+#president {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.list {
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-block-start: 2em;
+    padding-left: 40%;
+}
+
+.quote {
+    block-size: 10%;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+#prophet {
+    max-width: 10%;
+    max-height: 10%;
+}
+
+footer {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: normal;
+}
