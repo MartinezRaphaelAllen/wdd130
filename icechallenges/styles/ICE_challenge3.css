@@ -1,0 +1,43 @@
+#page {
+    width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 650px 650px;
+    grid-template-rows: 350px 350px;
+}
+
+.text {
+    background-color: #B9B8B9;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+h1 {
+    font-size: 180px;
+    justify-self: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 2;
+    word-spacing: 20px;
+    letter-spacing: 12px;
+}
+
+h2 {
+    color: #9C0E11;
+    font-size: 70px;
+    font-weight: 1600;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+    margin-top: 20%;
+    z-index: 2;
+    letter-spacing: 15px;
+}
+
+.pic {
+    width: 600px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    z-index: 1;
+    justify-self: center;
+}
