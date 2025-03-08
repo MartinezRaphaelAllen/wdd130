@@ -29,6 +29,11 @@ Fonts are separated by a & */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+.wireframe {
+  width: 250px;
+  border: solid black;
+}
+
 .image_crop {
   max-width: 800px;
 }

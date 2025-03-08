@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bowlby+One+SC&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 100px;
+    background-color: #354f52;
+    text-align: center;
+    height: 100px;
+}
+
+.logo {
+    width: 80px;
+    padding-bottom: 35px;
+}
+
+#logo_link {
+    padding-top: 35px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 60%;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #cad2c5;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: Yrsa, Helvetica, sans-serif;
+    height: 75px;
+    width: 160px;
+    padding-top: 25px;
+}
+
+nav a:hover {
+    background-color: #52796f;
+    color: black;
+}
+
+#hero-box {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    width: 100%;
+}
+
+.top {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    max-width: 1600px;
+    z-index: 1;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.bottom {
+    z-index: 0;
+    max-width: 1600px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
